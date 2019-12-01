@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+require('@babel/register');
+
+const day = process.argv[2];
+const part = process.argv[3];
+
+const help = `
+Usage: ./run <day> <part>
+
+Examples:
+
+./run 1 a
+./run 25 b
+`;
+
+if (isNaN(day) || !['a', 'b'].includes(part)) {
+  console.log(help);
+  process.exit();
+}
+
+const formattedDay = `${+day < 10 ? '0' : ''}${+day}`;
+
+const solutionPath = `./day/${formattedDay}-${part}.js`;
+console.log(`\nLoading puzzle solution: ${solutionPath}\n`);
+require(solutionPath);

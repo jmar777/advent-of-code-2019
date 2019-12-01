@@ -1,0 +1,28 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "description": "Year 2019 solutions for https://adventofcode.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmar777/advent-of-code-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmar777/advent-of-code-2019/issues"
+  },
+  "homepage": "https://github.com/jmar777/advent-of-code-2019#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-partial-application": "^7.7.4",
+    "@babel/plugin-proposal-pipeline-operator": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "babel-plugin-inline-import": "^3.0.0",
+    "lodash": "^4.17.15"
+  }
+}
