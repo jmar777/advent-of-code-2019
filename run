@@ -21,6 +21,6 @@ if (isNaN(day) || !['a', 'b'].includes(part)) {
 
 const formattedDay = `${+day < 10 ? '0' : ''}${+day}`;
 
-const solutionPath = `./day/${formattedDay}-${part}.js`;
+const solutionPath = `./solutions/${formattedDay}-${part}.js`;
 console.log(`\nLoading puzzle solution: ${solutionPath}\n`);
 require(solutionPath);
