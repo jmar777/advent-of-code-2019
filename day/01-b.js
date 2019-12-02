@@ -9,4 +9,4 @@ input
   |> _.split(?, '\n')
   |> _.map(?, calculateFuelRecursive)
   |> _.reduce(?, (sum, fuel) => sum + fuel, 0)
-  |> console.log('result:', ?);
+  |> console.log;
