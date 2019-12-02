@@ -4,5 +4,5 @@ import _ from 'lodash';
 input 
   |> _.split(?, '\n')
   |> _.map(?, mass => Math.floor(mass / 3) - 2)
-  |> _.reduce(?, (sum, fuel) => sum + fuel, 0)
+  |> _.sum
   |> console.log;
