@@ -33,7 +33,7 @@ advent-of-code-2019/
 │   ├── 02.txt
 │   ├── ...
 │   └── 25.txt
-└── day/
+└── solutions/
     ├── 01-a.js
     ├── 01-b.js
     ├── ...
@@ -41,4 +41,11 @@ advent-of-code-2019/
     └── 25-b.js
 ```
 
-See day 1 solutions for an example of importing the puzzle input data.
+A babel loader has also been included to simplify loading the input data. For example, the input
+data for day 1 would be imported as follows:
+
+```
+import input from '../input/01.txt';
+```
+
+`input` is now a string containing the unparsed result of reading `./input/01.txt` with UTF-8 encoding.
