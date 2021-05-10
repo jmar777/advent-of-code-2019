@@ -23,6 +23,6 @@
     "@babel/preset-env": "^7.7.4",
     "@babel/register": "^7.7.4",
     "babel-plugin-inline-import": "^3.0.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
